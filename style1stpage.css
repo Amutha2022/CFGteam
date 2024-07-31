@@ -1,0 +1,249 @@
+/* Ensure the container takes up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center; /* Center text horizontally */
+    margin-top: 20%; /* Optional: Adjust vertical spacing */
+}
+
+.container {
+    display: flex; 
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    height: 122%; /* Makes the container take up the full height of the viewport */
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: purple;
+    text-decoration-color: rgb(138, 139, 135);
+    margin: 0; /* Removes default margin */
+    position: relative; /* Keeps heading on top of the image */
+    font-family: 'Cambria Math', sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-left: 45px;
+    margin-right: auto;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+}
+
+h5{
+text-align: right;
+color:purple;
+padding-top: 10px;
+padding-right: 25px;
+margin:0;
+position:relative;
+float:right;
+}
+h2 {
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    color:purple;
+    text-align: right;
+    margin: 0; /* Removes default margin */
+    position: relative;
+}
+
+.dropdown {
+    display: inline-block;
+    position:relative;
+}
+
+.dropdown-button{
+    background-color: Purple;
+    border:none;
+    cursor:pointer;
+    color:White;
+    padding: 25px;
+    font-size:20px;
+    cursor: pointer;
+}
+.dropdown-content {
+    padding: 5px 5px;
+    position:absolute;
+    font-size: 18px;
+    background-color: rgb(206, 202, 203);
+    min-width:200px;
+    display:none;
+}
+.dropdown-content a{
+    color:rgb(150, 119, 150);
+    text-decoration: none;
+    display:block;
+}
+.dropdown-content a:hover{
+    background-color:rgb(231, 188, 231);
+    padding:10px;
+    text-decoration: none;
+    display:block;
+}
+.dropdown-item {
+    display: block;
+    color: purple;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(179, 169, 179);
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    color: purple;
+    text-decoration-color: rgb(138, 139, 135);
+    margin: 0; /* Removes default margin */
+    position: center; /* Keeps heading on top of the image */
+    padding:25px;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Send the image behind the heading */
+    background-size:100%;
+    background-repeat:no repeat;
+}
+
+.video-container {
+    width: 50%; /* Center the video container */
+    max-width: 420px; /* Limit the maximum width */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Clip any overflowing content */
+    margin-left: auto;
+    margin-bottom: auto;
+    padding:35px;
+}
+video {
+    width: 100%; /* Make video responsive */
+    height: 250px; /* Maintain aspect ratio */
+}
+
+#subscribe
+{
+    background-color: none;
+    text-align: left;
+    margin-bottom: auto;
+    color:rgb(182, 125, 182);
+    text-decoration: none;
+}
+.subscribebutton
+{   display:block;
+    margin:auto;
+    background-color: rgb(240, 233, 240);
+    color: rgb(122, 172, 128);  
+    align-items: center;
+    height:100px;
+    width: 200px;
+    }
+.subscribebutton:hover
+{
+    background-color: #f8f1f5;
+    color: rgb(68, 56, 72);
+}
+box{
+    width:50%;
+    display:flex;
+}
+#box1 {
+    width: 450px;
+    height: 200px;
+    margin-bottom: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color:purple;
+    text-align: justify;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.image-box {
+    display:flex;
+    height: 200px;
+    width: 100%;
+    margin-right: 50%;
+    padding: 20px;
+    align-items: center;
+}
+
+.image-box img {
+    margin:0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* To cover the entire box */
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+footer {
+    background-color:rgb(167, 147, 167);
+    text-align: right;
+    color: black;
+    width:100%;
+}
+#stack{
+    width:25%;
+    background-color:white;
+    float:right;
+    text-align: justify;
+    font: size 1px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#stack1{
+    width:25%;
+    background-color: white;
+    float:left;
+    text-align: justify;
+    font: size 1px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+#stack2{
+    width:25%;
+    background-color:white;
+    float:right;
+    text-align: justify;
+    font: size 4px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#stack3{
+    width:25%;
+    background-color:white;
+    float:Left;
+    text-align: justify;
+    font: size 4px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Styling for the marquee */
+.marquee {
+    font-size: 18px;
+    color: purple;
+    padding: 25px;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: rgb(243, 219, 243);
+    margin-top:60px;
+}
+
+.marquee ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.marquee li {
+    padding: 10px 0;
+}
